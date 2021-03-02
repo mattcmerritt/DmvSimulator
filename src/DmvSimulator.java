@@ -6,10 +6,10 @@ public class DmvSimulator {
 		System.out.println("Welcome to the DMV! Someone will be with you shortly!");
 		
 		// generate random number for user
-		int userNumber = (int) (Math.random() * 100 + 1);
+		int userNumber = (int) (Math.random() * 200 + 1);
 		System.out.println("Your number is " + userNumber + ". Please wait until you are called.");
 		
-		int minNumber = 1, maxNumber = 100;
+		int minNumber = 1, maxNumber = 200;
 		int calledNumber = userNumber + 1;
 		
 		if (calledNumber > maxNumber) {
