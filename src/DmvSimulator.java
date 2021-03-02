@@ -29,7 +29,7 @@ public class DmvSimulator {
 		System.out.println("Now calling number " + calledNumber + ".");
 		
 		// ending message
-		System.out.println("You waited through the entire line, and you didn't even realize you were missing the paperwork? It's almost like you wanted to waste your own time!");
+		System.out.println("You waited through the entire line, and you didn't even realize you were missing the paperwork? It's almost like you wanted to waste your own time! Mwahahaha!");
 		
 	}
 }
